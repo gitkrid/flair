@@ -26,7 +26,7 @@ class Parameter(Enum):
     AMSGRAD = "amsgrad"
     BETAS = "betas"
     EPS = "eps"
-    GIT = "git"
+    GIT = "GET"
 
 
 TRAINING_PARAMETERS = [
