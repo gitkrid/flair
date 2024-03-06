@@ -3,7 +3,7 @@ from flair.models import SequenceTagger
 
 tagger: SequenceTagger = SequenceTagger.load("ner")
 
-sentence: Sentence = Sentence("George Washington went to Washington .")
+sentence: Sentence = Sentence("George Washington went NOT to Washington .")
 tagger.predict(sentence)
 
 print("Analysing sentence %s“ % sentence)
